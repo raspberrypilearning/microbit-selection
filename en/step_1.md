@@ -1,8 +1,8 @@
 There might be times when you want a specific part of your program **only** when a certain condition is met, in programming this is called **selection**. 
 
-In MakeCode, the most important block you will use for selection are `if`{:class='microbitlogic'} blocks. 
+In MakeCode, the most important block you will use for selection is the `if`{:class='microbitlogic'} block. 
 
-#### Using an if block
+### Using an if block
 
 You can find the `if`{:class='microbitlogic'} block in the `Logic`{:class='microbitlogic'} menu. 
 
@@ -10,15 +10,15 @@ You can find the `if`{:class='microbitlogic'} block in the `Logic`{:class='micro
 
 `if`{:class='microbitlogic'} blocks need to go inside another block, like `forever`{:class='microbitbasic'} loops or an `on button pressed`{:class='microbitinput'} block. 
 
-You can place other blocks **inside** of an `if`{:class='microbitlogic'} block, and they will only run **if** the condition is `true`.
+You can place other blocks **inside** an `if`{:class='microbitlogic'} block, and they will only run **if** the condition is `true`.
 
-#### The condition
+### The condition
 
-An important part of the `if`{:class='microbitlogic'} block is the **condition**. The blocks inside an the `if`{:class='microbitlogic'} will only run if a condition is `true`. 
+An important part of the `if`{:class='microbitlogic'} block is the **condition**. The blocks inside an `if`{:class='microbitlogic'} will only run if a condition is `true`. 
 
-You can find the condition blocks inside the `Logic`{:class='microbitlogic'} menu of the Toolbox as well.
+You can find the condition blocks inside the `Logic`{:class='microbitlogic'} menu of the Toolbox.
 
-<img src="images/comparison-blocks.png" alt="The Comparison section of the Logic menu, with three block 0 = 0, 0 > 0 and a string comparion block" width="300"/>
+<img src="images/comparison-blocks.png" alt="The Comparison section of the Logic menu, with three blocks: 0 = 0, 0 > 0 and a string comparison block" width="300"/>
 
 A condition has two parts:
 1. Data
@@ -26,11 +26,11 @@ A condition has two parts:
 
 **Data**
 
-There has to be data on either side of your condition, this can be a variable, a sensor reading, a `true/false` or a number you type in.
+There has to be data on either side of your condition, this can be a variable, a sensor reading, a `true/false` or a number.
 
 **Operator**
 
-The operators is **how** you are comparing the two pieces of data. 
+The operators is **how** you are comparing the two pieces of data.
 
 You can think of the operator like a question you are asking about your two pieces of data. 
 
@@ -54,15 +54,15 @@ You can also add more possible outcomes to your `if`{:class='microbitlogic'} blo
 
 Sometimes you might want some code to run if the condition in your `if`{:class='microbitlogic'} block is `false`, to do this you can use an `else`{:class='microbitlogic'}. 
 
-The blocks inside the `else`{:class='microbitlogic'} part will Run **only** when the condition is `false`. 
+The blocks inside the `else`{:class='microbitlogic'} part will run **only** when the condition is `false`. 
 
-To add an `else`{:class='microbitlogic'} you need to click the `+` symbol at the botton of your `if`{:class='microbitlogic'} block.
+To add an `else`{:class='microbitlogic'} you need to click the `+` symbol at the bottom of your `if`{:class='microbitlogic'} block.
 
 **else if** 
 
 An `else if`{:class='microbitlogic'} block allows you to add another condition to check. 
 
-**It will only check the second condition if the first condition is `false`, if you always want both conditions to be checked, you have to add a second `if`{:class='microbitlogic'} block**
+**It will only check the second condition if the first condition is `false`. If you always want both conditions to be checked, you have to add a second `if`{:class='microbitlogic'} block**
 
 To add an `else if`{:class='microbitlogic'} block you click the `+` symbol at the bottom of the `if`{:class='microbitlogic'} block. 
 
@@ -70,4 +70,4 @@ To add an `else if`{:class='microbitlogic'} block you click the `+` symbol at th
 
 If you just want an `else if`{:class='microbitlogic'} you will have to click the `+` twice and then `-` the `else`{:class='microbitlogic'}.
 
-You will then have to add another `condition`{:class='microbitlogic'}
+You will then have to add another `condition`
