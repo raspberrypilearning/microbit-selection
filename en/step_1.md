@@ -35,12 +35,12 @@ The operators is **how** you are comparing the two pieces of data.
 You can think of the operator like a question you are asking about your two pieces of data. 
 
 The operators you can use are:
-+ `=` - are the two sides **equal**?
-+ `≠` - are the two sides **not equal**?
-+ `>` - is the first piece of data **greater than** the second?
-+ `<` - is the first piece of data **less than** the second?
-+ `≥` - is the first piece of data **greater than or equal to** the second? 
-+ `≤` - is the first piece of data **less than or equal to** the second?
++ `=` — are the two sides **equal**?
++ `≠` — are the two sides **not equal**?
++ `>` — is the first piece of data **greater than** the second?
++ `<` — is the first piece of data **less than** the second?
++ `≥` — is the first piece of data **greater than or equal to** the second? 
++ `≤` — is the first piece of data **less than or equal to** the second?
 
 You can choose an operator by dragging a comparison block into your `if`{:class='microbitlogic'} block and clicking on the drop-down menu.
 
