@@ -58,6 +58,8 @@ The blocks inside the `else`{:class='microbitlogic'} part will run **only** when
 
 To add an `else`{:class='microbitlogic'}, you need to click the `+` symbol at the bottom of your `if`{:class='microbitlogic'} block.
 
+There is also an `if else`{:class='microbitlogic'} block that you can use if you know you will need to do one thing if a condition is true and another if a condition is false.
+
 **else if** 
 
 An `else if`{:class='microbitlogic'} block allows you to add another condition to check. 
