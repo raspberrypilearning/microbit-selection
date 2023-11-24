@@ -1,77 +1,77 @@
-There might be times when you want a specific part of your program to run **only** when a certain condition is met. In programming, this is called **selection**.
+Het kan voorkomen dat je wilt dat een specifiek onderdeel van jouw programma **alleen** wordt uitgevoerd als aan een bepaalde voorwaarde is voldaan. In programmeren heet dit **selectie**.
 
-In MakeCode, the most important block you will use for selection is the `if`{:class='microbitlogic'} block.
+In MakeCode is het belangrijkste blok dat je voor selectie gebruikt het `als`{:class='microbitlogic'} blok.
 
-### Using an if block
+### Een als blok gebruiken
 
-You will find the `if`{:class='microbitlogic'} block in the `Logic`{:class='microbitlogic'} menu.
+Je vindt het blok `als`{:class='microbitlogic'} in het menu `Logisch`{:class='microbitlogic'}.
 
 <img src="images/if-block-location.png" alt="The Logic menu with the `if` block highlighted." width="350"/>
 
-You have to put `if`{:class='microbitlogic'} blocks inside other blocks, like `forever`{:class='microbitbasic'} loops or an `on button pressed`{:class='microbitinput'} block.
+Je moet `als`{:class='microbitlogic'} blokken in andere blokken zetten, zoals `de hele tijd`{:class='microbitbasic'} lussen of een `wanneer knop wordt ingedrukt`{:class='microbitinput'} blok.
 
-You can place other blocks **inside** an `if`{:class='microbitlogic'} block, and they will only run **if** the condition is `true`.
+Je kunt andere blokken **binnen** een `als`{:class='microbitlogic'} blok plaatsen en ze zullen alleen werken **als** de voorwaarde `waar` is.
 
-### The condition
+### De voorwaarde
 
-An important part of the `if`{:class='microbitlogic'} block is the **condition**. The blocks inside an `if`{:class='microbitlogic'} will only run if a condition is `true`.
+Een belangrijk deel van het `als`{:class='microbitlogic'} blok is de **voorwaarde**. De blokken in een `als`{:class='microbitlogic'} blok worden alleen uitgevoerd als een voorwaarde `waar` is.
 
-You can find the condition blocks in the `Logic`{:class='microbitlogic'} menu of the Toolbox.
+Je kunt de voorwaarden blokken vinden in het menu `Logisch`{:class='microbitlogic'} van de Toolbox.
 
 <img src="images/comparison-blocks.png" alt="The Comparison section of the Logic menu, with three blocks showing: 0 = 0, 0 > 0, and a string comparison block." width="300"/>
 
-A condition has two parts:
+Een voorwaarde bestaat uit twee delen:
 
-1. Data
-2. An operator
+1. Gegevens
+2. Een operator
 
-**Data**
+**Gegevens**
 
-There has to be data on either side of your condition. This can be a variable, a sensor reading, a `true/false`, or a number.
+Er moeten gegevens aan beide kanten van je voorwaarde staan. Dit kan een variabele, een uitlezing van een sensor zijn, een `waar/onwaar`, of een getal.
 
 **Operator**
 
-The operators is **how** you are comparing the two pieces of data.
+De operators bepalen **hoe** je de twee stukken gegevens met elkaar vergelijkt.
 
-You can think of the operator like a question you are asking about your two pieces of data.
+Je kunt de operator beschouwen als een vraag die je stelt over je twee gegevens.
 
-The operators you can use are:
+De operators die je kan gebruiken zijn:
 
-- `=` — are the two sides **equal**?
-- `≠` — are the two sides **not equal**?
-- `>` — is the first piece of data **greater than** the second?
-- `<` — is the first piece of data **less than** the second?
-- `≥` — is the first piece of data **greater than or equal to** the second?
-- `≤` — is the first piece of data **less than or equal to** the second?
+- `=` - zijn de twee zijden **gelijk**?
+- `≠` — zijn de twee zijden **niet gelijk**?
+- `>` — is het eerste stukje gegevens **groter dan** het tweede?
+- `<` — is het eerste stukje gegevens **kleiner dan** het tweede?
+- `≥` — is het eerste stukje gegevens **groter dan of gelijk aan** het tweede?
+- `≤` — is het eerste stukje gegevens **kleiner dan of gelijk aan** het tweede?
 
-You can choose an operator by dragging a comparison block into your `if`{:class='microbitlogic'} block and clicking on the drop-down menu.
+Je kunt een operator kiezen door een vergelijkingsblok in je 'als' {:class='microbitlogic'} blok te slepen en op het vervolgkeuzemenu te klikken.
 
 <img src="images/changing-operator.gif" alt="A demonstration of using the drop-down menu on a comparison block to change the operator." width="300"/>
 
-#### else if and else
+#### anders als en anders
 
-You can also add more possible outcomes to your `if`{:class='microbitlogic'} block with `else`{:class='microbitlogic'} and `else if`{:class='microbitlogic'} blocks.
+Je kunt nog meer mogelijke resultaten toevoegen aan je `als`{:class='microbitlogic'} blok met `anders`{:class='microbitlogic'} en `anders als`{:class='microbitlogic'} blokken.
 
-**else**
+**anders**
 
-Sometimes you might want some code to run if the condition in your `if`{:class='microbitlogic'} block is `false`. To do this, you can use an `else`{:class='microbitlogic'}.
+Soms wil je dat wat code wordt uitgevoerd als de voorwaarde in je `als`{:class='microbitlogic'} blok `onwaar` is. Om dit te doen, kun je een `anders`{:class='microbitlogic'} blok gebruiken.
 
-The blocks inside the `else`{:class='microbitlogic'} part will run **only** when the condition is `false`.
+De blokken in een `anders`{:class='microbitlogic'} blok worden alleen uitgevoerd als een voorwaarde `onwaar` is.
 
-To add an `else`{:class='microbitlogic'}, you need to click the `+` symbol at the bottom of your `if`{:class='microbitlogic'} block.
+Om een `anders`{:class='microbitlogic'} toe te voegen, moet je op het `+` symbool onder in je `als`{:class='microbitlogic'} blok klikken.
 
-There is also an `if else`{:class='microbitlogic'} block that you can use if you know you will need to do one thing if a condition is true and another if a condition is false.
+Er is ook een `als anders`{:class='microbitlogic'} blok dat je kunt gebruiken als je weet dat je één ding moet doen als een voorwaarde waar is en een ander als een voorwaarde niet waar is.
 
-**else if**
+**anders als**
 
-An `else if`{:class='microbitlogic'} block allows you to add another condition to check.
+Een `anders als`{:class='microbitlogic'} blok stelt je in staat een andere voorwaarde toe te voegen om te controleren.
 
-**It will only check the second condition if the first condition is `false`. If you always want both conditions to be checked, you have to add a second `if`{:class='microbitlogic'} block.**
+**Het zal alleen de tweede voorwaarde controleren als de eerste voorwaarde `onwaar` is. Als je altijd wilt dat beide voorwaarden worden gecontroleerd, moet je een tweede `als`{:class='microbitlogic'} blok toevoegen.**
 
-To add an `else if`{:class='microbitlogic'} block, you click the `+` symbol at the bottom of the `if`{:class='microbitlogic'} block.
+Om een `anders als`{:class='microbitlogic'} blok toe te voegen, klik je op het `+` symbool onderaan het `als`{:class='microbitlogic'} blok.
 
 <img src="images/elseif-blocks.gif" alt="An animation showing the + symbol being used to add three 'else if' sections. Finally, the 'else' is removed from the end by clicking the '-' symbol next to it." width="350"/>
 
-If you just want an `else if`{:class='microbitlogic'}, you will have to click the `+` twice and then `-` the `else`{:class='microbitlogic'}.
+Als je alleen een `anders als`{:class='microbitlogic'} wilt, zul je twee keer op de `+` moeten klikken en vervolgens op de `-` van de `anders`{:class='microbitlogic'}.
 
-You will then have to add another `condition`.
+Je moet dan nog een `voorwaarde` toevoegen.
