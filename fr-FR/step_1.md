@@ -18,7 +18,7 @@ An important part of the `if`{:class='microbitlogic'} block is the **condition**
 
 You can find the condition blocks in the `Logic`{:class='microbitlogic'} menu of the Toolbox.
 
-<img src="images/comparison-blocks.png" alt="The Comparison section of the Logic menu, with three blocks showing: 0 = 0, 0 > 0, and a string comparison block." width="300"/>
+<img src="images/comparison-blocks.png" alt="The Comparison section of the Logic menu, with three blocks showing: 0 = 0, 0 >
 
 A condition has two parts:
 
