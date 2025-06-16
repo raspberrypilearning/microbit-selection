@@ -18,7 +18,7 @@ Een belangrijk deel van het `als`{:class='microbitlogic'} blok is de **voorwaard
 
 Je kunt de voorwaarden blokken vinden in het menu `Logisch`{:class='microbitlogic'} van de Toolbox.
 
-<img src="images/comparison-blocks.png" alt="The Comparison section of the Logic menu, with three blocks showing: 0 = 0, 0 > 0, and a string comparison block." width="300"/>
+<img src="images/comparison-blocks.png" alt="The Comparison section of the Logic menu, with three blocks showing: 0 = 0, 0 >
 
 Een voorwaarde bestaat uit twee delen:
 
@@ -44,7 +44,7 @@ De operators die je kan gebruiken zijn:
 - `≥` — is het eerste stukje gegevens **groter dan of gelijk aan** het tweede?
 - `≤` — is het eerste stukje gegevens **kleiner dan of gelijk aan** het tweede?
 
-Je kunt een operator kiezen door een vergelijkingsblok in je 'als' {:class='microbitlogic'} blok te slepen en op het vervolgkeuzemenu te klikken.
+Je kunt een operator kiezen door een vergelijkingsblok in je `als`{:class='microbitlogic'} blok te slepen en op het vervolgkeuzemenu te klikken.
 
 <img src="images/changing-operator.gif" alt="A demonstration of using the drop-down menu on a comparison block to change the operator." width="300"/>
 
