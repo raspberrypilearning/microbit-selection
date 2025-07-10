@@ -1,77 +1,77 @@
-There might be times when you want a specific part of your program to run **only** when a certain condition is met. In programming, this is called **selection**.
+Il peut arriver que tu souhaites qu'une partie spécifique de ton programme s'exécute **uniquement** lorsqu'une certaine condition est remplie. En programmation, cela s'appelle **sélection**.
 
-In MakeCode, the most important block you will use for selection is the `if`{:class='microbitlogic'} block.
+Dans MakeCode, le bloc le plus important que tu utiliseras pour la sélection est le bloc `si`{:class='microbitlogic'}.
 
-### Using an if block
+### Utilisation d'un bloc si
 
-You will find the `if`{:class='microbitlogic'} block in the `Logic`{:class='microbitlogic'} menu.
+Tu trouveras le bloc `si`{:class='microbitlogic'} dans le menu `Logique`{:class='microbitlogic'}.
 
 <img src="images/if-block-location.png" alt="The Logic menu with the `if` block highlighted." width="350"/>
 
-You have to put `if`{:class='microbitlogic'} blocks inside other blocks, like `forever`{:class='microbitbasic'} loops or an `on button pressed`{:class='microbitinput'} block.
+Tu dois mettre des blocs `si`{:class='microbitlogic'} à l'intérieur d'autres blocs, comme les boucles `toujours`{:class='microbitbasic'} ou un bloc `lorsque le bouton est pressé`{:class='microbitinput'}.
 
-You can place other blocks **inside** an `if`{:class='microbitlogic'} block, and they will only run **if** the condition is `true`.
+Tu peux placer d'autres blocs **à l'intérieur** d'un bloc `si`{:class='microbitlogic'}, et ils ne s'exécuteront que **si** la condition est `vraie`.
 
-### The condition
+### La condition
 
-An important part of the `if`{:class='microbitlogic'} block is the **condition**. The blocks inside an `if`{:class='microbitlogic'} will only run if a condition is `true`.
+Une partie importante du bloc `si`{:class='microbitlogic'} est la **condition**. Les blocs à l'intérieur d'un `si`{:class='microbitlogic'} ne s'exécuteront que si une condition est `vraie`.
 
-You can find the condition blocks in the `Logic`{:class='microbitlogic'} menu of the Toolbox.
+Tu peux trouver les blocs de conditions dans le menu `Logique`{:class='microbitlogic'} de la boîte à outils.
 
 <img src="images/comparison-blocks.png" alt="The Comparison section of the Logic menu, with three blocks showing: 0 = 0, 0 >
 
-A condition has two parts:
+Une condition comporte deux parties :
 
-1. Data
-2. An operator
+1. Données
+2. Un opérateur
 
-**Data**
+**Données**
 
-There has to be data on either side of your condition. This can be a variable, a sensor reading, a `true/false`, or a number.
+Il doit y avoir des données de chaque côté de ta condition. Cela peut être une variable, une lecture de capteur, un ` vrai/faux` ou un nombre.
 
-**Operator**
+**Opérateur**
 
-The operators is **how** you are comparing the two pieces of data.
+Les opérateurs sont la **façon dont** tu compares les deux éléments de données.
 
-You can think of the operator like a question you are asking about your two pieces of data.
+Tu peux voir ça comme une question que tu poses sur tes deux éléments de données.
 
-The operators you can use are:
+Les opérateurs que tu peux utiliser sont :
 
-- `=` — are the two sides **equal**?
-- `≠` — are the two sides **not equal**?
-- `>` — is the first piece of data **greater than** the second?
-- `<` — is the first piece of data **less than** the second?
-- `≥` — is the first piece of data **greater than or equal to** the second?
-- `≤` — is the first piece of data **less than or equal to** the second?
+- `=` — les deux côtés sont-ils **égaux** ?
+- `≠` — les deux côtés ne sont-ils **pas égaux** ?
+- `>` — la première donnée est-elle **supérieure** à la deuxième ?
+- `<` — la première donnée est-elle **inférieure** à la deuxième ?
+- `≥` — la première donnée est-elle **supérieure ou égale** à la deuxième ?
+- « ≤ » — la première donnée est-elle **inférieure ou égale** à la deuxième ?
 
-You can choose an operator by dragging a comparison block into your `if`{:class='microbitlogic'} block and clicking on the drop-down menu.
+Tu peux choisir un opérateur en faisant glisser un bloc de comparaison dans ton bloc `si`{:class='microbitlogic'} et en cliquant sur le menu déroulant.
 
 <img src="images/changing-operator.gif" alt="A demonstration of using the drop-down menu on a comparison block to change the operator." width="300"/>
 
-#### else if and else
+#### sinon si et sinon
 
-You can also add more possible outcomes to your `if`{:class='microbitlogic'} block with `else`{:class='microbitlogic'} and `else if`{:class='microbitlogic'} blocks.
+Tu peux également ajouter plus de résultats possibles à ton bloc `si`{:class='microbitlogic'} avec les blocs `sinon`{:class='microbitlogic'} et `sinon si`{:class='microbitlogic'}.
 
-**else**
+**sinon**
 
-Sometimes you might want some code to run if the condition in your `if`{:class='microbitlogic'} block is `false`. To do this, you can use an `else`{:class='microbitlogic'}.
+Parfois, tu souhaites peut-être que du code s'exécute si la condition dans ton bloc `si`{:class='microbitlogic'} est `faux`. Pour cela, tu peux utiliser un `sinon`{:class='microbitlogic'}.
 
-The blocks inside the `else`{:class='microbitlogic'} part will run **only** when the condition is `false`.
+Les blocs à l'intérieur de la partie sinon`{:class='microbitlogic'} s'exécuteront **seulement** lorsque la condition est `fausse\`.
 
-To add an `else`{:class='microbitlogic'}, you need to click the `+` symbol at the bottom of your `if`{:class='microbitlogic'} block.
+Pour ajouter un `sinon`{:class='microbitlogic'}, tu dois cliquer sur le symbole `+` en bas de ton bloc `si`{:class='microbitlogic'}.
 
-There is also an `if else`{:class='microbitlogic'} block that you can use if you know you will need to do one thing if a condition is true and another if a condition is false.
+Il y a aussi un bloc `si sinon`{:class='microbitlogic'} que tu peux utiliser si tu sais que tu devras faire une chose si une condition est vraie et une autre si une condition est fausse.
 
-**else if**
+**sinon si**
 
-An `else if`{:class='microbitlogic'} block allows you to add another condition to check.
+Un bloc `sinon si`{:class='microbitlogic'} te permet d'ajouter une autre condition à vérifier.
 
-**It will only check the second condition if the first condition is `false`. If you always want both conditions to be checked, you have to add a second `if`{:class='microbitlogic'} block.**
+**Il ne vérifiera la deuxième condition que si la première condition est `fausse`. Si tu souhaites que les deux conditions soient toujours vérifiées, tu dois ajouter un deuxième bloc `si`{:class='microbitlogic'}.**
 
-To add an `else if`{:class='microbitlogic'} block, you click the `+` symbol at the bottom of the `if`{:class='microbitlogic'} block.
+Pour ajouter un bloc `sinon si`{:class='microbitlogic'}, cliques sur le symbole `+` en bas du bloc `si`{:class='microbitlogic'}.
 
 <img src="images/elseif-blocks.gif" alt="An animation showing the + symbol being used to add three 'else if' sections. Finally, the 'else' is removed from the end by clicking the '-' symbol next to it." width="350"/>
 
-If you just want an `else if`{:class='microbitlogic'}, you will have to click the `+` twice and then `-` the `else`{:class='microbitlogic'}.
+Si tu veux juste un `sinon si`{:class='microbitlogic'}, tu devras cliquer deux fois sur le `+` puis sur le `-` le `sinon`{:class='microbitlogic'}.
 
-You will then have to add another `condition`.
+Tu devras ensuite ajouter une autre `condition`.
