@@ -1,75 +1,77 @@
-There might be times when you want a specific part of your program to run **only** when a certain condition is met. In programming, this is called **selection**. 
+Μπορεί να υπάρχουν φορές που θέλεις ένα συγκεκριμένο μέρος του προγράμματός σου να εκτελείται **μόνο** όταν εκπληρωθεί μια συγκεκριμένη συνθήκη. Στον προγραμματισμό, αυτό ονομάζεται **επιλογή**.
 
-In MakeCode, the most important block you will use for selection is the `if`{:class='microbitlogic'} block. 
+Στο MakeCode, το πιο σημαντικό μπλοκ που θα χρησιμοποιήσεις για επιλογή είναι το μπλοκ `εάν`{:class='microbitlogic'}.
 
-### Using an if block
+### Χρησιμοποιώντας ένα μπλοκ εάν
 
-You will find the `if`{:class='microbitlogic'} block in the `Logic`{:class='microbitlogic'} menu. 
+Θα βρεις το μπλοκ `εάν`{:class='microbitlogic'} στο μενού `Λογική`{:class='microbitlogic'}.
 
 <img src="images/if-block-location.png" alt="The Logic menu with the `if` block highlighted." width="350"/>
 
-You have to put `if`{:class='microbitlogic'} blocks inside other blocks, like `forever`{:class='microbitbasic'} loops or an `on button pressed`{:class='microbitinput'} block. 
+Πρέπει να τοποθετήσεις τα μπλοκ `εάν`{:class='microbitlogic'} μέσα σε άλλα μπλοκ, όπως βρόχους `για πάντα`{:class='microbitbasic'} ή ένα μπλοκ `όταν πιεστεί το πλήκτρο`{:class='microbitinput'}.
 
-You can place other blocks **inside** an `if`{:class='microbitlogic'} block, and they will only run **if** the condition is `true`.
+Μπορείτε να τοποθετήσετε άλλα μπλοκ **μέσα** σε ένα μπλοκ `if`{:class='microbitlogic'} και αυτά θα εκτελεστούν μόνο **εάν** η συνθήκη είναι `αληθής`.
 
-### The condition
+### Η συνθήκη
 
-An important part of the `if`{:class='microbitlogic'} block is the **condition**. The blocks inside an `if`{:class='microbitlogic'} will only run if a condition is `true`. 
+Ένα σημαντικό μέρος του μπλοκ `εάν`{:class='microbitlogic'} είναι η **συνθήκη**. Τα μπλοκ μέσα σε ένα `εάν`{:class='microbitlogic'} θα εκτελούνται μόνο εάν μια συνθήκη είναι `αληθής`.
 
-You can find the condition blocks in the `Logic`{:class='microbitlogic'} menu of the Toolbox.
+Μπορείς να βρεις τα μπλοκ συνθήκης στο μενού `Λογική`{:class='microbitlogic'} της Εργαλειοθήκης.
 
-<img src="images/comparison-blocks.png" alt="The Comparison section of the Logic menu, with three blocks showing: 0 = 0, 0 > 0, and a string comparison block." width="300"/>
+<img src="images/comparison-blocks.png" alt="The Comparison section of the Logic menu, with three blocks showing: 0 = 0, 0 >
 
-A condition has two parts:
-1. Data
-2. An operator
+Μια συνθήκη έχει δύο μέρη:
 
-**Data**
+1. Δεδομένα
+2. Έναν τελεστή
 
-There has to be data on either side of your condition. This can be a variable, a sensor reading, a `true/false`, or a number.
+**Δεδομένα**
 
-**Operator**
+Πρέπει να υπάρχουν δεδομένα και από τις δύο πλευρές της συνθήκης σου. Αυτό μπορεί να είναι μια μεταβλητή, μια ένδειξη αισθητήρα, ένα `αληθές/ψευδές` ή ένας αριθμός.
 
-The operators is **how** you are comparing the two pieces of data.
+**Τελεστής**
 
-You can think of the operator like a question you are asking about your two pieces of data. 
+Οι τελεστές είναι **πώς** συγκρίνεις τα δύο τμήματα των δεδομένων.
 
-The operators you can use are:
-+ `=` — are the two sides **equal**?
-+ `≠` — are the two sides **not equal**?
-+ `>` — is the first piece of data **greater than** the second?
-+ `<` — is the first piece of data **less than** the second?
-+ `≥` — is the first piece of data **greater than or equal to** the second? 
-+ `≤` — is the first piece of data **less than or equal to** the second?
+Μπορείς να σκεφτείς τον τελεστή σαν μια ερώτηση που ρωτάς για τα δύο τμηματα των δεδομένα σου (τελεστέοι).
 
-You can choose an operator by dragging a comparison block into your `if`{:class='microbitlogic'} block and clicking on the drop-down menu.
+Οι τελεστές που μπορείς να χρησιμοποιήσεις είναι:
+
+- `=` — είναι οι δύο τελεστέοι**ίσοι**;
+- `≠` — οι δύο τελεστέοι **δεν είναι ίσοι**;
+- `>` — είναι το πρώτο τμήμα δεδομένων **μεγαλύτερο από** το δεύτερο;
+- `<` — είναι το πρώτο τμήμα δεδομένων **μικρότερο από** το δεύτερο;
+- `≥` — είναι το πρώτο τμήμα δεδομένων **μεγαλύτερο ή ίσο** με το δεύτερο;
+- `≤` — είναι το πρώτο τμήμα δεδομένων **μικρότερο ή ίσο** με το δεύτερο;
+
+Μπορείς να επιλέξεις έναν τελεστή σύροντας ένα μπλοκ σύγκρισης στο μπλοκ `εάν`{:class='microbitlogic'} και κάνοντας κλικ στο αναπτυσσόμενο μενού.
 
 <img src="images/changing-operator.gif" alt="A demonstration of using the drop-down menu on a comparison block to change the operator." width="300"/>
 
-#### else if and else
+#### αλλιώς εάν και αλλιώς
 
-You can also add more possible outcomes to your `if`{:class='microbitlogic'} block with `else`{:class='microbitlogic'} and `else if`{:class='microbitlogic'} blocks.
+Μπορείς επίσης να προσθέσεις περισσότερα πιθανά αποτελέσματα στο μπλοκ `εάν`{:class='microbitlogic'} με τα μπλοκ `αλλιώς`{:class='microbitlogic'} και `αλλιώς εάν`{:class='microbitlogic'}.
 
-**else**
+**αλλιώς**
 
-Sometimes you might want some code to run if the condition in your `if`{:class='microbitlogic'} block is `false`. To do this, you can use an `else`{:class='microbitlogic'}. 
+Μερικές φορές μπορεί να χρειαστεί να εκτελεστεί κάποιος κώδικας εάν η συνθήκη στο μπλοκ `εάν`{:class='microbitlogic'} είναι `ψευδής`. Για να το κάνεις αυτό, μπορείς να χρησιμοποιήσεις μια συνάρτηση `αλλιώς`{:class='microbitlogic'}.
 
-The blocks inside the `else`{:class='microbitlogic'} part will run **only** when the condition is `false`. 
+Τα μπλοκ μέσα σε ένα `εάν`{:class='microbitlogic'} θα εκτελούνται μόνο εάν μια συνθήκη είναι `αληθής`.
 
-To add an `else`{:class='microbitlogic'}, you need to click the `+` symbol at the bottom of your `if`{:class='microbitlogic'} block.
+Για να προσθέσεις ένα `αλλιώς`{:class='microbitlogic'}, πρέπει να κάνεις κλικ στο σύμβολο `+` στο κάτω μέρος του μπλοκ `εάν`{:class='microbitlogic'}.
 
-There is also an `if else`{:class='microbitlogic'} block that you can use if you know you will need to do one thing if a condition is true and another if a condition is false.
+Υπάρχει επίσης ένα μπλοκ `if else`{:class='microbitlogic'} που μπορείς να χρησιμοποιήσεις αν γνωρίζεις ότι θα χρειαστεί να κάνεις ένα πράγμα αν μια συνθήκη είναι αληθής και ένα άλλο αν μια συνθήκη είναι ψευδής.
 
-**else if** 
+**αλλιώς εάν**
 
-An `else if`{:class='microbitlogic'} block allows you to add another condition to check. 
+Ένα μπλοκ `αλλιώς εάν`{:class='microbitlogic'} σου επιτρέπει να προσθέσεις μια άλλη συνθήκη για έλεγχο.
 
-**It will only check the second condition if the first condition is `false`. If you always want both conditions to be checked, you have to add a second `if`{:class='microbitlogic'} block.**
+Θα ελέγξει τη δεύτερη συνθήκη μόνο εάν η πρώτη συνθήκη είναι `ψευδής`. Αν θέλεις να ελέγχονται πάντα και οι δύο συνθήκες, πρέπει να προσθέσεις ένα δεύτερο μπλοκ `εάν`{:class='microbitlogic'}.\*\*
 
-To add an `else if`{:class='microbitlogic'} block, you click the `+` symbol at the bottom of the `if`{:class='microbitlogic'} block. 
+Για να προσθέσεις ένα μπλοκ `αλλιώς εάν`{:class='microbitlogic'}, πρέπει να κάνεις κλικ στο σύμβολο `+` στο κάτω μέρος του μπλοκ `εάν`{:class='microbitlogic'}.
 
 <img src="images/elseif-blocks.gif" alt="An animation showing the + symbol being used to add three 'else if' sections. Finally, the 'else' is removed from the end by clicking the '-' symbol next to it." width="350"/>
 
-If you just want an `else if`{:class='microbitlogic'}, you will have to click the `+` twice and then `-` the `else`{:class='microbitlogic'}.
+Αν θέλεις απλώς ένα `αλλιώς εάν`{:class='microbitlogic'}, θα πρέπει να κάνεις κλικ στο `+` δύο φορές και στη συνέχεια στο `-` στο `αλλιώς`{:class='microbitlogic'}.
 
-You will then have to add another `condition`.
+Στη συνέχεια, θα πρέπει να προσθέσεις μια άλλη `συνθήκη`.
