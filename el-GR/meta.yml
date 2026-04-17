@@ -1,9 +1,10 @@
-title: Selection
+title: Επιλογή
 hero_image: images/banner.png
-description: How to use if blocks for selection on the micro:bit
+description: Πώς να χρησιμοποιήσεις τα μπλοκ εάν για επιλογή στο micro:bit
 version: 4
 listed: false
 copyedit: false
 last_tested: "2022-05-19"
 steps:
-  - title: Using if blocks for selection on the micro:bit
+  - 
+    title: Χρήση μπλοκ εάν για επιλογή στο micro:bit
