@@ -1,4 +1,3 @@
----
 title: Επιλογή
 hero_image: images/banner.png
 description: Πώς να χρησιμοποιήσεις τα μπλοκ εάν για επιλογή στο micro:bit
@@ -7,4 +6,5 @@ listed: false
 copyedit: false
 last_tested: "2022-05-19"
 steps:
-  - title: Χρήση μπλοκ εάν για επιλογή στο micro:bit
+  - 
+    title: Χρήση μπλοκ εάν για επιλογή στο micro:bit
