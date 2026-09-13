@@ -6,7 +6,7 @@
 
 Θα βρεις το μπλοκ `εάν`{:class='microbitlogic'} στο μενού `Λογική`{:class='microbitlogic'}.
 
-<img src="images/if-block-location.png" alt="Το μενού Λογική με τονισμένο το μπλοκ `εάν`." width="350"/>
+<img src="images/if-block-location.png" alt="The Logic menu with the `if` block highlighted." width="350"/>
 
 Πρέπει να τοποθετήσεις τα μπλοκ `εάν`{:class='microbitlogic'} μέσα σε άλλα μπλοκ, όπως βρόχους `για πάντα`{:class='microbitbasic'} ή ένα μπλοκ `όταν πιεστεί το πλήκτρο`{:class='microbitinput'}.
 
@@ -18,7 +18,7 @@
 
 Μπορείς να βρεις τα μπλοκ συνθήκης στο μενού `Λογική`{:class='microbitlogic'} της Εργαλειοθήκης.
 
-<img src="images/comparison-blocks.png" alt="Η ενότητα Σύγκριση του μενού Λογική, με τρία μπλοκ που εμφανίζουν: 0 = 0, 0 > 0 και ένα μπλοκ σύγκρισης συμβολοσειρών." width="300"/>
+<img src="images/comparison-blocks.png" alt="The Comparison section of the Logic menu, with three blocks showing: 0 = 0, 0 >
 
 Μια συνθήκη έχει δύο μέρη:
 
@@ -46,7 +46,7 @@
 
 Μπορείς να επιλέξεις έναν τελεστή σύροντας ένα μπλοκ σύγκρισης στο μπλοκ `εάν`{:class='microbitlogic'} και κάνοντας κλικ στο αναπτυσσόμενο μενού.
 
-<img src="images/changing-operator.gif" alt="Μια επίδειξη χρήσης του αναπτυσσόμενου μενού σε ένα μπλοκ σύγκρισης για την αλλαγή του τελεστή." width="300"/>
+<img src="images/changing-operator.gif" alt="A demonstration of using the drop-down menu on a comparison block to change the operator." width="300"/>
 
 #### αλλιώς εάν και αλλιώς
 
@@ -70,7 +70,7 @@
 
 Για να προσθέσεις ένα μπλοκ `αλλιώς εάν`{:class='microbitlogic'}, πρέπει να κάνεις κλικ στο σύμβολο `+` στο κάτω μέρος του μπλοκ `εάν`{:class='microbitlogic'}.
 
-<img src="images/elseif-blocks.gif" alt="Μια κινούμενη εικόνα που δείχνει το σύμβολο + που χρησιμοποιείς για να προσθέσεις τρεις ενότητες 'αλλιώς εάν'. Στο τέλος, το 'αλλιώς' αφαιρείται από το τέλος κάνοντας κλικ στο σύμβολο '-' δίπλα του." width="350"/>
+<img src="images/elseif-blocks.gif" alt="An animation showing the + symbol being used to add three 'else if' sections. Finally, the 'else' is removed from the end by clicking the '-' symbol next to it." width="350"/>
 
 Αν θέλεις απλώς ένα `αλλιώς εάν`{:class='microbitlogic'}, θα πρέπει να κάνεις κλικ στο `+` δύο φορές και στη συνέχεια στο `-` στο `αλλιώς`{:class='microbitlogic'}.
 
