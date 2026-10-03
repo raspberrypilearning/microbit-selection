@@ -18,7 +18,7 @@ Une partie importante du bloc `si`{:class='microbitlogic'} est la **condition**.
 
 Tu peux trouver les blocs de conditions dans le menu `Logique`{:class='microbitlogic'} de la boîte à outils.
 
-<img src="images/comparison-blocks.png" alt="The Comparison section of the Logic menu, with three blocks showing: 0 = 0, 0 > 0, and a string comparison block." width="300"/>
+<img src="images/comparison-blocks.png" alt="The Comparison section of the Logic menu, with three blocks showing: 0 = 0, 0 >
 
 Une condition comporte deux parties :
 
@@ -27,7 +27,7 @@ Une condition comporte deux parties :
 
 **Données**
 
-Il doit y avoir des données de chaque côté de ta condition. Cela peut être une variable, une lecture de capteur, un `vrai/faux` ou un nombre.
+Il doit y avoir des données de chaque côté de ta condition. Cela peut être une variable, une lecture de capteur, un ` vrai/faux` ou un nombre.
 
 **Opérateur**
 
@@ -42,7 +42,7 @@ Les opérateurs que tu peux utiliser sont :
 - `>` — la première donnée est-elle **supérieure** à la deuxième ?
 - `<` — la première donnée est-elle **inférieure** à la deuxième ?
 - `≥` — la première donnée est-elle **supérieure ou égale** à la deuxième ?
-- `≤` — la première donnée est-elle **inférieure ou égale** à la deuxième ?
+- « ≤ » — la première donnée est-elle **inférieure ou égale** à la deuxième ?
 
 Tu peux choisir un opérateur en faisant glisser un bloc de comparaison dans ton bloc `si`{:class='microbitlogic'} et en cliquant sur le menu déroulant.
 
@@ -56,7 +56,7 @@ Tu peux également ajouter plus de résultats possibles à ton bloc `si`{:class=
 
 Parfois, tu souhaites peut-être que du code s'exécute si la condition dans ton bloc `si`{:class='microbitlogic'} est `faux`. Pour cela, tu peux utiliser un `sinon`{:class='microbitlogic'}.
 
-Les blocs à l'intérieur de la partie `sinon`{:class='microbitlogic'} s'exécuteront **seulement** lorsque la condition est `fausse`.
+Les blocs à l'intérieur de la partie sinon`{:class='microbitlogic'} s'exécuteront **seulement** lorsque la condition est `fausse\`.
 
 Pour ajouter un `sinon`{:class='microbitlogic'}, tu dois cliquer sur le symbole `+` en bas de ton bloc `si`{:class='microbitlogic'}.
 
